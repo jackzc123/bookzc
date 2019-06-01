@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql:///booktest?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQLDialect
+  thymeleaf:
+    cache: false

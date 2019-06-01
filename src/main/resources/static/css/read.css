@@ -1,0 +1,237 @@
+/* 基本样式 */
+body,div,ul,ol,li,dl,dt,dd,span,p,h1,h2,h3,h4,h5,h6,img,form,table,tbody,tr,td,th,label,button,input,select,textarea{margin:0;padding:0}
+body{font-family:'Microsoft YaHei','宋体',sans-serif;text-align:left;color:#1a1a1a;background:#fff;-webkit-font-smoothing:antialiased;-moz-font-smoothing:antialiased;}
+a{color:#262626;text-decoration:none;transition: color .3s,background-color .3s,border .3s;}
+a:hover{color:#ff3955;}
+img{border:0px;}
+ul li{list-style:none outside none;}
+.cf{clear:both;overflow:hidden;}
+.space{clear:both;overflow:hidden;height:20px;}
+
+#wrapper{background:#f5f5f5;height:100%;}
+#main{width:1020px;margin:0 auto;}
+.nav-bar{width:190px;float:left;background-color:#fff;border-radius:0px;padding:20px;margin-right:20px;}
+.nav-bar li{text-align:center;height:36px;line-height:36px;background:#f6f6f6;margin-bottom:1px;}
+.nav-bar li.state{background:#fc6c28;font-weight:bold;}
+.nav-bar li.state a{color:#fff;}
+
+.main-content{width:730px;float:left;background-color:#fff;border-radius:0px;padding:20px;}
+.main-content-2{width:770px;float:left;background-color:#fff;border-radius:0px;padding:20px 0px;}
+.top-wrap{width:100%;margin-bottom:20px;background:#ffffff;}
+.wrap-box{background-color:#fff;border-radius:6px;padding:20px;width:980px;margin:0 auto;}
+.focus-wrap, .sort-wrap, .news-wrap{margin:0px auto 20px;}
+.wrap-title{border-bottom:1px solid #1a1a1a;padding-bottom:10px;}
+.wrap-title-2{border-bottom:1px solid #e6e6e6;padding:0px 0px 10px 20px;}
+
+.header{width:1020px;margin:10px auto;position:relative;}
+.logo a{display:block;width:300px;height:80px;text-indent:-9999px;background:url(../moban/images/logo.png) no-repeat scroll 0 0 transparent;}
+.book-shelf{position:absolute;right:0px;top:30px;}
+.book-shelf a{display:block;padding:10px 20px;border-radius:3px;font-size:14px;text-align:center;border:1px solid #ff5e66;background:#fff;color:#ff5e66;font:700 14px/16px '宋体';}
+.book-shelf a:hover{background:#ff5e66;color:#fff;border:1px solid #ff5e66;}
+
+.nav{background:#3e3d43;height:50px;width: 1020px;margin: 0 auto;}
+.nav-list{width:1020px;margin:0 auto;clear:both;overflow:hidden;}
+.nav li{float:left;color:#fff;margin-right:0px;height:50px;}
+.nav li a{display:inline-block;color:#fff;padding:12px 12px 0;}
+.nav li:hover{border-top:2px solid #ed4259;background:#252428;height:48px;}
+.nav li:hover a{padding:10px 12px 0;}
+
+.book-img{border:1px solid #e6e6e6}
+.book-img a{position:relative;z-index:1;display:block;overflow:hidden;width:100%;height:100%;box-shadow:0 1px 6px rgba(0,0,0,.3),0 0 5px #f9f2e9 inset}
+.book-img a img{width:100%;height:100%;-webkit-transition:-webkit-transform .3s ease-out;-moz-transition:-moz-transform .3s ease-out;-ms-transition:-ms-transform .3s ease-out;transition:transform .3s ease-out;color:#fcfcfa}
+.book-img a img:hover{-webkit-transform:scale(1.05);-moz-transform:scale(1.05);-o-transform:scale(1.05);transform:scale(1.05)}
+
+.book-cover{position:relative;z-index:4;float:right;width:52px;height:91px;margin-right:20px;text-align:center}
+.book-cover img{width:60px;height:87px;outline:1px solid transparent}
+:root .book-cover{-webkit-transform:perspective(60px) rotateY(-10deg);-moz-transform:perspective(60px) rotateY(-10deg);transform:perspective(60px) rotateY(-10deg)}
+:root .book-cover:before{position:absolute;z-index:3;top:3%;left:10%;width:100%;height:90%;background-color:#999}
+:root .book-cover:after{position:absolute;z-index:2;top:2%;left:100%;width:10%;height:92%;content:' ';-webkit-transform:perspective(60px) rotateY(30deg);-moz-transform:perspective(60px) rotateY(30deg);transform:perspective(60px) rotateY(30deg);background-color:#efefef;box-shadow:inset 0 0 5px #333}
+:root .book-cover img{width:52px;height:87px}
+
+.rec-focus{width:730px;float:left;}
+.week-rec{width:230px;float:left;margin-left:20px;}
+.rec-focus-book{float:left;width:240px;padding:16px 0;border-bottom:1px solid #d8d8d8;}
+.rec-focus-book .book-img{float:left;width:72px;height:96px;margin-top:3px;}
+.rec-focus-book .text{float:left;width:135px;padding:0px 0px 0px 10px;}
+.rec-focus-book .intro{color:#666;font:12px/20px 宋体;margin:8px 0px;text-align:justify;}
+.rec-focus-book .info{position:relative;color:#a6a6a6;font:12px/18px 宋体;}
+.rec-focus-book .author{display:inline-block;width:70px;height:18px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.rec-focus-book .classify{position:absolute;right:0;top:0;display:inline-block;border:1px solid #e7e7e7;padding:0px 2px;}
+
+.week-rec-list{font-size:15px;}
+.week-rec-list ul{overflow:hidden;width:230px;}
+.week-rec-list li{padding:6px 0px;border-bottom:1px solid #e6e6e6;}
+.week-rec-list li:last-child{border:0;}
+.week-rec-list li span{display:inline-block;margin-left:-10px;color:#808080;}
+
+.sort-wrap{width:980px;}
+.sort-box{float:left;width:230px;margin:0px 20px 30px 0px;}
+.sort-title{border-bottom:1px solid #1a1a1a;padding-bottom:3px;}
+.sort-book-first{padding:15px 0 0;height:96px;border-bottom:1px solid #e6e6e6;margin-bottom:10px;}
+.sort-book-first .book-cover{margin-top:5px;}
+.sort-book-first .text{float:left;width:135px;}
+.sort-book-first h4 a{color:#ff3955;font-weight:bold;}
+.sort-book-first .intro{color:#666;font:12px/20px 宋体;margin:8px 0px;text-align:justify;}
+.sort-book-list li{padding:4px 0px;}
+
+.sort-wrap .s4, .sort-wrap .s8{margin-right:0px;}
+
+.update-wrap{width:730px;float:left;font-size:15px;}
+.update-table table{border-collapse:collapse;border-spacing:0px 0px;}
+.update-table tr{border-bottom:1px solid #e6e6e6;}
+.update-table tr:last-child{border:0;}
+.update-table td{padding:6px 0px 4px;}
+.update-table .classify, .update-table .name, .update-table .section, .update-table .author, .update-table .time{display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.update-table .classify{color:#808080;width:90px;margin-left:-10px}
+.update-table .name{width:180px;}
+.update-table .section{width:240px;font-size:12px;color:#808080;font-family:"宋体"}
+.update-table .author{width:100px;font-size:12px;font-family:"宋体"}
+.update-table .time{font-size:12px;color:#808080;font-family:sans-serif;float:right}
+
+.postdate-wrap{width:230px;float:left;font-size:15px;margin-left:20px;}
+
+
+.book-rank-first{padding:15px 0 0;height:100px;border-bottom:1px solid #e6e6e6;clear:both;overflow:hidden;}
+.book-rank-first .book-cover{margin-top:5px;}
+.book-rank-first .text{float:left;width:135px;}
+.book-rank-first h3{display:inline-block;background:#ff5e66;color:#fff;font:700 14px/18px Arial;padding:0 2px;}
+.book-rank-first h4{font-weight:normal;font:16px/24px 'Microsoft Yahei','宋体';margin:6px auto 3px;}
+.book-rank-first .info{color:#a6a6a6;font:12px/20px '宋体';}
+
+.book-list-row{width:230px;font-size:15px;}
+.book-list-row li{position:relative;padding:6px 0px;border-bottom:1px solid #e6e6e6;}
+.book-list-row li:last-child{border:0;}
+.book-list-row li span{position:absolute;top:9px;right:0;display:inline-block;font:12px/14px '宋体';color:#808080;text-align:right;width:90px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+
+.book-rank-list{width:230px;font-size:15px;}
+.book-rank-list li{width:230px;height:32px;position:relative;}
+.book-rank-list li span{position:absolute;left:0px;top:6px;font:700 14px/16px Arial;display:inline-block;overflow:hidden;width:16px;height:16px;text-align:center;letter-spacing:-1px;color:#666;background:#ededed;}
+.book-rank-list li span.no2{color:#fff;background:#ff815e;}
+.book-rank-list li span.no3{color:#fff;background:#ffa95e;}
+.book-rank-list li a{display:inline-block;width:200px;height:30px;line-height:28px;overflow:hidden;border-bottom:1px solid #e6e6e6;margin-left:30px;}
+
+.rank-box{width:230px;float:left;font-size:15px;height:450px;}
+.rank-body .s1, .rank-body .s2, .rank-body .s4, .rank-body .s5, .rank-body .s7, .rank-body .s8{margin-right:20px;}
+.rank-body .s1, .rank-body .s2, .rank-body .s3, .rank-body .s4, .rank-body .s5, .rank-body .s6{margin-bottom:20px;}
+
+.rank-view-box{position:relative;width:730px;height:140px;padding:20px 0;clear:both;overflow:hidden;border-bottom:1px solid #e6e6e6;}
+.rank-view-box .rank-tag{position:absolute;z-index:10;top:20px;left:0;display:inline-block;font:14px/24px Arial;min-width:24px;height: 24px;text-align:center;background:#808080;color:#fff;}
+.rank-view-box .no1{background:#ff6077;color:#fff;}
+.rank-view-box .no2{background:#ff9733;color:#fff;}
+.rank-view-box .no3{background:#ffb333;color:#fff;}
+.rank-view-box .book-img{float:left;width:100px;height:140px;margin-right:15px;}
+.rank-view-box .book-img a img{width:100px;height:140px;}
+.book-mid-info{float:left;width:470px;margin-right:40px;font:12px/18px "宋体";}
+.book-mid-info h4{font:700 18px/24px "Microsoft Yahei";}
+.book-mid-info .author{margin:8px 0px 0px 0px;color:#a6a6a6;}
+.book-mid-info .author em{font-style:normal;padding:0 6px;color:#e7e7e7;}
+.book-mid-info .intro{margin:10px 0px;color:#666;line-height:24px;}
+.book-mid-info .update, .book-mid-info .update a{color:#2972cc;}
+.book-mid-info .update:hover, .book-mid-info .update a:hover{color:#001de7;}
+.book-right-info .btn{margin-top:56px;}
+.book-right-info .btn a{font:14px/34px "宋体";display:inline-block;width:100px;height:34px;margin-right:20px;text-align:center;vertical-align:middle;border-width:1px;border-style:solid;border-radius:2px;}
+.rank-view-box .book-right-info{float:left;width:100px;}
+
+.sort-view-list{width:770px}
+.sort-view-list ul{width:750px;padding-left:20px;clear:both;overflow:hidden;}
+.sort-view-box{float:left;width:375px;height:140px;padding:20px 0px;overflow:hidden;border-bottom:1px solid #e6e6e6;}
+.sort-view-box .book-img{float:left;width:100px;height:140px;}
+.sort-view-box .book-info{float:left;width:230px;height:140px;padding:0 20px;}
+.sort-view-box .book-info .author{color:#808080;font-size:13px;margin-top:5px;}
+.sort-view-box .book-info .tag{margin-top:3px;}
+.sort-view-box .book-info .tag span{display:inline-block;padding:0px 3px;font:12px/14px "宋体";border-radius:2px;margin:0px 6px 0px 0px;}
+.sort-view-box .book-info .intro{color:#808080;font-size:13px;line-height:20px;margin-top:8px;height:60px;overflow:hidden;}
+
+.book-main{background-color:#fff;border-radius:6px;padding:20px;width:980px;margin:0 auto;}
+#fengmian{width:180px;height:240px;float:left;}
+#fengmian img{width:180px;height:240px;}
+.book-text{float:left;width:760px;margin-left:20px;}
+.book-text h1{display:inline-block;font-size:28px;}
+.book-text span{display:inline-block;padding:0px 0px 0px 10px;}
+
+.book-text .tag{margin-top:6px;}
+.book-text .tag span{display:inline-block;padding:0px 5px;font:12px/18px "宋体";border-radius:2px;margin-right:8px;}
+.tag .red{color:#ff3955;border:1px solid #ff3955;}
+.tag .orange{color:#ff7e00;border:1px solid #ff7e00;}
+.tag .blue{color:#4284ed;border:1px solid #4284ed;}
+.tag .green{color:#4fb53d;border:1px solid #4fb53d;}
+
+.book-text .intro{margin:10px 0px;font:14px/20px "宋体";padding-bottom:20px;min-height:100px;}
+.book-text .btn a{font:14px/34px "宋体";display:inline-block;width:120px;height:34px;margin-right:20px;text-align:center;vertical-align:middle;border-width:1px;border-style:solid;border-radius:2px;}
+.pink-btn{color:#fff;background:#ff3955;}
+.pink-btn:hover{color:#fff;background:#ff5269;}
+.border-btn{position:relative;z-index:1;text-align:center;color:#ff3955;border:1px solid #ff3955;}
+
+.rec-same-book{position:relative;clear:both;overflow:hidden;width:240px;padding:20px 0;border-bottom:1px solid #d8d8d8;}
+.rec-same-book .book-img{float:left;width:72px;height:96px;margin-top:3px;}
+.rec-same-book .text{float:left;width:135px;padding:0px 0px 0px 10px;}
+.rec-same-book .intro{color:#666;font:12px/20px 宋体;margin:8px 0px;text-align:justify;}
+.rec-same-book .info{position:relative;color:#a6a6a6;font:12px/18px 宋体;}
+.rec-same-book .author{display:inline-block;width:70px;height:18px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.rec-same-book .classify{position:absolute;right:0;top:0;display:inline-block;border:1px solid #e7e7e7;padding:0px 2px;}
+.same-wrap dl:last-child{border-bottom:0px solid #d8d8d8;}
+
+.book-chapter-list{background-color:#fff;border-radius:6px;padding:20px;width:980px;margin:0 auto 20px;clear:both;}
+.book-chapter-list h3{height:40px;line-height:40px;clear:both;}
+.book-chapter-list ul{margin-bottom:30px;}
+.book-chapter-list li{float:left;width:300px;padding:10px 26px 10px 0px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border-bottom:1px solid #e6e6e6;font-size:14px;font-family:"宋体";}
+
+.block-title{position:relative;height:40px;border-bottom:1px solid #e6e6e6;margin:10px auto 20px;}
+.block-title .chapter-list-text{display:inline-block;width:text-align:center;padding:0 20px;border-bottom:2px solid #ff3955;color:#ff3955;font:normal 18px/38px "Microsoft Yahei";margin-bottom:-2px;}
+.block-title .chapter-list-text i{font-size:14px;font-style:normal;}
+.block-title .update-text{position:absolute;left:180px;top:12px;font:14px/18px 宋体;}
+.block-title .update-text a{color:#2972cc;}
+.block-title .update-text span{color:#808080;}
+
+.comment-wrap{width:730px;float:left;}
+.post-wrap{padding:20px 0px;border-bottom:1px solid #e6e6e6;clear:both;overflow:hidden;width:730px;font:12px/20px "宋体";}
+.wrap-card{float:left;width:80px;}
+.wrap-card img{width:60px;}
+.post{float:left;width:620px;margin-left:10px;padding-right:20px;}
+.post-auther{height:24px;color:#262626;}
+.post-auther b{font-size:13px;color:#2972cc;}
+.post-body{color:#808080;}
+
+.tips{padding:30px 0px 10px;}
+.tips p{color:#999;font:12px/20px 宋体;}
+
+.same-wrap{width:230px;float:left;margin-left:20px;}
+
+#chapter{width:100%;min-height:1000px;background:url(../moban/images/body_base_bg.png) repeat 0 0;color:#1a1a1a;border-top:1px solid #e6e6e6;}
+.chapter-wrap{width:1000px;margin:0 auto;padding:0px 0px 20px;border-top:1px solid #dbd6c9;}
+.chapter-nav{position:relative;height:35px;font:12px/14px "宋体";height:14px;padding-top:15px;}
+.chapter-nav .bookcase{position:absolute;top:8px;right:0px;width:80px;text-align:center;}
+.chapter-nav .bookcase a{display:block;border:1px solid #999690;color:##999690;box-sizing:border-box;border-radius:3px;padding:5px 0px;}
+.chapter-nav .bookcase a:hover{border:1px solid #ff3955;color:#ff3955;}
+.chapter-box{width:998px;background:url(../moban/images/basic_bg.png) repeat 0 0;margin:15px auto 20px;padding:60px 0px;border:1px solid #d8d8d8;}
+#chapter-title h1{font:24px/32px 'Microsoft YaHei',sans-serif;overflow: hidden;height:32px;margin-bottom: 12px;text-indent:100px;}
+#txt{font-family:"方正启体简体","Microsoft YaHei","宋体";font-size:18pt;letter-spacing:0.2em;line-height:150%;width:800px;margin:50px auto 0px;color:#414141;}
+.chapter-control{height:70px;text-align:center;border:1px solid #d8d8d8;background:url(../moban/images/basic_bg.png) repeat 0 0;}
+.chapter-control a{display:inline-block;font:18px/70px 'Microsoft YaHei','宋体',sans-serif;width:33.2%;}
+.chapter-control a:hover{background:url(../moban/images/body_base_bg.png) repeat 0 0;}
+.chapter-control span {font-size:0;display:inline-block;vertical-align:middle;letter-spacing:normal;word-spacing:normal;height:32px;border-right:1px solid #d8d8d8;}
+
+.page-box .pagination{display:inline-block;overflow:hidden;margin:20px 0px 0px 160px;}
+.page-box .pagination ul{float:left}
+.page-box .pagination li{float:left;margin-right:10px;text-align:center}
+.page-box .pagination li a{font:14px/34px Arial;float:left;height:34px;padding:0 12px;transition:color .3s,border .3s;border:1px solid #fff;}
+.page-box .pagination li a:hover{border:1px solid #ff3955}
+.page-box .pagination .next,.page-box .pagination .prev{font-family:simsun;line-height:34px}
+.page-box .pagination .selected{color:#fff;border-radius:2px;background:#ff3955;}
+.page-box .pagination .selected a{color:#fff;border:1px solid #ff3955;}
+.page-box .pagination .hidden a{color:#ccc;}
+
+.record{clear:both;overflow:hidden;}
+.bookcase-book{position:relative;float:left;width:490px;height:100px;overflow:hidden;padding:15px 0px;border-bottom:1px solid #ccc;}
+.bookcase-book .book-img{float:left;width:80px;height:100px;}
+.bookcase-book .book-img img{width:80px;height:100px;}
+.bookcase-book .book-info{padding-left:10px;height:100px;overflow:hidden;}
+.bookcase-book h4{font-size:16px;height:30px;overflow:hidden;}
+.bookcase-book .author, .bookcase-book .classify, .bookcase-book .read{color:#999;font:normal 12px/20px "宋体";text-overflow:ellipsis;white-space:nowrap;}
+.bookcase-book .del-btn{z-index:999;position:absolute;right:40px;top:15px;}
+.bookcase-book .del-btn a{display:block;width:56px;height:30px;font-size:12px;line-height:30px;border-radius:3px;text-align:center;}
+.bookcase-book .del-btn .border-btn{border:1px solid #ff4643;color:#ff4643;box-sizing:border-box;}
+
+
+
+.footer{width:1020px;margin:20px auto;text-align:center;color:#808080;font:normal 12px/22px '宋体';}
